@@ -1,0 +1,13 @@
+{
+  "name": "artcraft-for-creativity",
+  "description": "Drive ArtCraft's PhotoCraft, FilmCraft and EffectCraft from Claude: batch photo edits, portrait retouching, resizing, quick video cuts and motion graphics. Runs locally through each app's built-in MCP server, no cloud account needed.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Max-Ambito"
+  },
+  "homepage": "https://github.com/Max-Ambito/artcraft-plugin",
+  "repository": "https://github.com/Max-Ambito/artcraft-plugin",
+  "license": "Apache-2.0",
+  "keywords": ["artcraft", "photocraft", "filmcraft", "effectcraft", "image-editing", "video-editing", "motion-graphics"],
+  "skills": "./skills"
+}

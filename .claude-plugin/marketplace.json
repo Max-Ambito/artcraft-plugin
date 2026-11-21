@@ -1,0 +1,14 @@
+{
+  "name": "artcraft",
+  "owner": {
+    "name": "Max-Ambito"
+  },
+  "plugins": [
+    {
+      "name": "artcraft-for-creativity",
+      "source": "./artcraft-for-creativity",
+      "description": "Drive ArtCraft's PhotoCraft, FilmCraft and EffectCraft from Claude through their built-in MCP servers.",
+      "version": "0.1.0"
+    }
+  ]
+}

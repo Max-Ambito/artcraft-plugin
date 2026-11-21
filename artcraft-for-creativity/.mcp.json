@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "photocraft": {
+      "command": "C:/Program Files/ArtCraft/PhotoCraft/photocraft-cli.exe",
+      "args": [
+        "mcp",
+        "--automation-read-root", "${ARTCRAFT_WORK_DIR:-C:/ArtCraft-Work}",
+        "--automation-write-root", "${ARTCRAFT_WORK_DIR:-C:/ArtCraft-Work}"
+      ]
+    },
+    "filmcraft": {
+      "command": "C:/Program Files/ArtCraft/FilmCraft/filmcraft-cli.exe",
+      "args": ["mcp"]
+    },
+    "effectcraft": {
+      "command": "C:/Program Files/ArtCraft/EffectCraft/effectcraft-cli.exe",
+      "args": [
+        "mcp", "--autosave",
+        "--automation-read-root", "${ARTCRAFT_WORK_DIR:-C:/ArtCraft-Work}",
+        "--automation-write-root", "${ARTCRAFT_WORK_DIR:-C:/ArtCraft-Work}"
+      ]
+    }
+  }
+}
